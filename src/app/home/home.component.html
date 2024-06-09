@@ -1,20 +1,31 @@
 <div>
-  <div class="bg-gradient-to-b from-[#0F1533] to-[#28166F] h-auto">
-    <div class="md:flex">
-      <div class="md:w-1/2 w-full flex flex-col justify-center items-center">
-        <div class="px-10 py-32">
-          <h2 class="text-5xl tracking-wider font-semibold text-white">Fully-Automated Payroll & Compliance Software
-          </h2>
-          <p class="text-white text-xl py-4">We are a full-service creative agency focused purely on web and mobile
-            technologies. A madhouse of designers, explorers, thinkers, and tinkers too! Here, we design for the most
-            probable future in the most creative way.</p>
+  <section class="bg-gradient-to-b from-[#0F1533] to-[#28166F] min-h-screen flex items-center">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-0 py-12 sm:py-20">
+      <div class="flex flex-col lg:flex-row items-center">
+        <div class="lg:w-1/2 lg:pr-8 xl:pr-16 text-center lg:text-left mb-12 lg:mb-0">
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-white leading-tight mb-4 sm:mb-6">
+            Fully-Automated Payroll & Compliance Software
+          </h1>
+          <p class="text-blue-100 text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed mb-6 sm:mb-8">
+            We are a full-service creative agency focused on web and mobile technologies. Our team of designers, explorers, thinkers, and tinkers craft the most probable future in the most creative way.
+          </p>
+          <div class="space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row justify-center lg:justify-start">
+            <a href="#" class="inline-block bg-yellow-1 text-blue-1 font-bold py-3 px-6 rounded-md hover:bg-yellow-2 transition duration-300 ease-in-out shadow-lg transform hover:-translate-y-1">
+              Get Started
+            </a>
+            <a href="#" class="inline-block bg-transparent text-white font-semibold py-3 px-6 rounded-md border border-white hover:bg-white hover:text-blue-1 transition duration-300 ease-in-out shadow-lg transform hover:-translate-y-1">
+              Learn More
+            </a>
+          </div>
+        </div>
+        <div class="lg:w-1/2 flex justify-center items-center">
+          <img src="../../assets/home-banner.png" alt="Automated Payroll Software" class="hidden md:block w-full max-w-lg xl:max-w-xl animate-float">
         </div>
       </div>
-      <div class="md:w-1/2 flex justify-center items-center">
-        <img src="../../assets/home-banner.png" alt="image" class=" h-[500px]">
-      </div>
     </div>
-  </div>
+  </section>
+
+  
   <div class="h-auto px-10 py-10 md:py-20 bg-gradient-to-b from-[#0F1533] to-[#28166F]">
     <div class="flex flex-col justify-center items-center">
       <h2 class="text-center text-white text-2xl md:text-3xl font-semibold">We are a platform with the most<br />complete features</h2>
@@ -54,79 +65,93 @@
           for the most probable future in the most creative way.</p>
         <button class="bg-yellow-1 px-6 py-2 mt-4 rounded-lg font-semibold text-base">Start Now → </button>
       </div>
-      <div class="md:w-1/2 md:flex justify-center items-center w-full">
-        <img src="../../assets/box.png" alt="">
+      <div class="hidden lg:flex lg:w-1/2 justify-center items-center mt-12 lg:mt-0">
+        <img 
+          src="../../assets/box.png" 
+          alt="Automated Payroll Software" 
+          class="w-full max-w-lg xl:max-w-xl animate-float"
+        >
       </div>
     </div>
   </div>
-  <div class="h-auto bg-blue-1 px-10 py-10">
-    <h2 class="text-white">About Us</h2>
-    <h3 class="text-white text-4xl py-3">Fully-Automated Payroll & <br /> Compliance Software</h3>
-    <div class="md:flex">
-      <div class="md:w-1/2 w-full">
-        <img src="../../assets/car-1.png" alt="">
-        <div class="flex justify-between">
+  <div class="bg-blue-1 px-4 py-8 sm:px-6 sm:py-12 md:px-8 md:py-16 lg:px-10 lg:py-20">
+    <h2 class="text-white mb-2 sm:mb-4">About Us</h2>
+    <h3 class="text-white text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6 sm:mb-8">
+      Fully-Automated Payroll &<br class="hidden sm:inline" /> Compliance Software
+    </h3>
+    <div class="flex flex-col md:flex-row md:gap-8">
+      <div class="w-full md:w-1/2 mb-8 md:mb-0">
+        <img src="../../assets/car-1.png" alt="Car Image" class="w-full rounded-lg shadow-lg mb-4">
+        <div class="flex justify-between items-center">
           <div>
-            <img src="../../assets/device.png" alt="">
+            <img src="../../assets/device.png" alt="Device Icon" class="h-8 w-full sm:h-10 sm:w-full">
           </div>
-          <div>
-            <i class="fa-solid text-white fa-arrow-right"></i>
-            <i class="fa-solid fa-arrow-left"></i>
+          <div class="flex gap-4">
+            <i class="fa-solid fa-arrow-left text-white text-xl sm:text-2xl cursor-pointer hover:text-blue-200 transition duration-300"></i>
+            <i class="fa-solid fa-arrow-right text-white text-xl sm:text-2xl cursor-pointer hover:text-blue-200 transition duration-300"></i>
           </div>
         </div>
       </div>
-      <div class="md:w-1/2 md:px-20 md:py-8 w-full">
-        <div class="md:flex flex-col gap-10">
-          <div class="flex justify-between items-center">
-            <div class="flex justify-start items-center">
-              <img src="../../assets/question.png" alt="" />
-              <span class="text-white ml-4">Login</span>
+      <div class="w-full md:w-1/2 md:pl-8 lg:pl-12">
+        <div class="flex flex-col gap-6 sm:gap-8">
+          <div>
+            <div class="flex justify-between items-center mb-2 sm:mb-4 cursor-pointer" (click)="toggleContent('login')">
+              <div class="flex items-center">
+                <img src="../../assets/question.png" alt="Question Icon" class="h-6 w-6 sm:h-8 sm:w-8">
+                <span class="text-white ml-4 text-lg sm:text-xl">Login</span>
+              </div>
+              <div class="text-white text-lg sm:text-xl">
+                {{ showLoginContent ? '-' : '+' }}
+              </div>
             </div>
-            <div class="text-white cursor-pointer" (click)="toggleContent('login')">
-              {{ showLoginContent ? '-' : '+' }}
-            </div>
-          </div>
-          <div *ngIf="showLoginContent" class="text-white ml-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </div>
-        
-          <div class="flex justify-between items-center">
-            <div class="flex justify-start items-center">
-              <img src="../../assets/question.png" alt="" />
-              <span class="text-white ml-4">Dashboard</span>
-            </div>
-            <div class="text-white cursor-pointer" (click)="toggleContent('dashboard')">
-              {{ showDashboardContent ? '-' : '+' }}
+            <div *ngIf="showLoginContent" class="text-blue-100 ml-10 sm:ml-12 text-sm sm:text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
           </div>
-          <div *ngIf="showDashboardContent" class="text-white ml-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </div>
-        
-          <div class="flex justify-between items-center">
-            <div class="flex justify-start items-center">
-              <img src="../../assets/question.png" alt="" />
-              <span class="text-white ml-4">GST Compliant</span>
+          
+          <div>
+            <div class="flex justify-between items-center mb-2 sm:mb-4 cursor-pointer" (click)="toggleContent('dashboard')">
+              <div class="flex items-center">
+                <img src="../../assets/question.png" alt="Question Icon" class="h-6 w-6 sm:h-8 sm:w-8">
+                <span class="text-white ml-4 text-lg sm:text-xl">Dashboard</span>
+              </div>
+              <div class="text-white text-lg sm:text-xl">
+                {{ showDashboardContent ? '-' : '+' }}
+              </div>
             </div>
-            <div class="text-white cursor-pointer" (click)="toggleContent('gst')">
-              {{ showGSTContent ? '-' : '+' }}
-            </div>
-          </div>
-          <div *ngIf="showGSTContent" class="text-white ml-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </div>
-        
-          <div class="flex justify-between items-center">
-            <div class="flex justify-start items-center">
-              <img src="../../assets/question.png" alt="" />
-              <span class="text-white ml-4">Get Paid Online</span>
-            </div>
-            <div class="text-white cursor-pointer" (click)="toggleContent('paidOnline')">
-              {{ showPaidOnlineContent ? '-' : '+' }}
+            <div *ngIf="showDashboardContent" class="text-blue-100 ml-10 sm:ml-12 text-sm sm:text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
           </div>
-          <div *ngIf="showPaidOnlineContent" class="text-white ml-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          
+          <div>
+            <div class="flex justify-between items-center mb-2 sm:mb-4 cursor-pointer" (click)="toggleContent('gst')">
+              <div class="flex items-center">
+                <img src="../../assets/question.png" alt="Question Icon" class="h-6 w-6 sm:h-8 sm:w-8">
+                <span class="text-white ml-4 text-lg sm:text-xl">GST Compliant</span>
+              </div>
+              <div class="text-white text-lg sm:text-xl">
+                {{ showGSTContent ? '-' : '+' }}
+              </div>
+            </div>
+            <div *ngIf="showGSTContent" class="text-blue-100 ml-10 sm:ml-12 text-sm sm:text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+          
+          <div>
+            <div class="flex justify-between items-center mb-2 sm:mb-4 cursor-pointer" (click)="toggleContent('paidOnline')">
+              <div class="flex items-center">
+                <img src="../../assets/question.png" alt="Question Icon" class="h-6 w-6 sm:h-8 sm:w-8">
+                <span class="text-white ml-4 text-lg sm:text-xl">Get Paid Online</span>
+              </div>
+              <div class="text-white text-lg sm:text-xl">
+                {{ showPaidOnlineContent ? '-' : '+' }}
+              </div>
+            </div>
+            <div *ngIf="showPaidOnlineContent" class="text-blue-100 ml-10 sm:ml-12 text-sm sm:text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
           </div>
         </div>
       </div>
@@ -159,7 +184,7 @@
         <p class="mt-14 text-white">Invoice within 30 seconds Management</p>
         <p class="mt-4 text-white">Calculate & transfer accurate salaries, directly to the bank accounts of your
           workforce with RazorpayX Payroll Software.</p>
-        <ul class="list-disc py-8">
+        <ul class="list-disc py-8 ml-4">
           <li class="text-white">Pay full-time employees, interns and contractors</li>
           <li class="text-white">Seamlessly process both regular & off-cycle payroll</li>
           <li class="text-white">Hassle-free contractor payments, with TDS taken care of</li>
@@ -181,7 +206,7 @@
         <p class="mt-14 text-white">Invoice within 30 seconds Management</p>
         <p class="mt-4 text-white">Calculate & transfer accurate salaries, directly to the bank accounts of your
           workforce with RazorpayX Payroll Software.</p>
-        <ul class="list-disc py-8">
+        <ul class="list-disc py-8 ml-4">
           <li class="text-white">Pay full-time employees, interns and contractors</li>
           <li class="text-white">Seamlessly process both regular & off-cycle payroll</li>
           <li class="text-white">Hassle-free contractor payments, with TDS taken care of</li>
@@ -197,7 +222,7 @@
         <p class="mt-14 text-white">Invoice within 30 seconds Management</p>
         <p class="mt-4 text-white">Calculate & transfer accurate salaries, directly to the bank accounts of your
           workforce with RazorpayX Payroll Software.</p>
-        <ul class="list-disc py-8">
+        <ul class="list-disc py-8 ml-4">
           <li class="text-white">Pay full-time employees, interns and contractors</li>
           <li class="text-white">Seamlessly process both regular & off-cycle payroll</li>
           <li class="text-white">Hassle-free contractor payments, with TDS taken care of</li>
@@ -218,7 +243,7 @@
         <h3 class="text-white text-2xl">GST Compliant</h3>
         <p class="mt-4 text-white">Calculate & transfer accurate salaries, directly to the bank accounts of your
           workforce with RazorpayX Payroll Software.</p>
-        <ul class="list-disc py-8">
+        <ul class="list-disc py-8 ml-4">
           <li class="text-white">Pay full-time employees, interns and contractors</li>
           <li class="text-white">Seamlessly process both regular & off-cycle payroll</li>
           <li class="text-white">Hassle-free contractor payments, with TDS taken care of</li>
@@ -239,8 +264,8 @@
   </div>
   <!--contact us-->
   <div class="bg-blue-1 py-8 px-4 sm:py-12 sm:px-6 md:py-16 md:px-8 lg:py-20 lg:px-10">
-    <h2 class="text-white text-2xl sm:text-3xl">Contact Us</h2>
-    <h3 class="text-white text-3xl sm:text-4xl md:text-5xl py-2 sm:py-4">
+    <h2 class="text-white">Contact Us</h2>
+    <h3 class="text-white text-3xl sm:text-4xl md:text-5xl py-2 sm:py-8">
       Invoice create that's<br class="hidden sm:inline" /> Accurate & Always on Time
     </h3>
     <form action="" class="flex flex-col gap-4 sm:gap-6">
