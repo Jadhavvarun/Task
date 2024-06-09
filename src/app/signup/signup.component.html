@@ -1,25 +1,52 @@
-<div class="h-auto px-10 py-20 bg-blue-1">
-    <div>
-        <form (ngSubmit)="onSubmit()">
-            <div class="flex flex-col gap-4">
-                <div class="flex flex-col">
-                    <label for="username" class="text-white">Name</label>
-                    <input [(ngModel)]="username" name="username" type="text" placeholder="Name" class="p-2 bg-transparent border border-blue-2 outline-none rounded-md text-white" required>
-                </div>
-                <div class="flex flex-col">
-                    <label for="email" class="text-white">Email</label>
-                    <input [(ngModel)]="email" name="email" type="email" placeholder="example@email.com" class="p-2 bg-transparent text-white border border-blue-2 outline-none rounded-md" required>
-                </div>
-                <div class="flex flex-col">
-                    <label for="password" class="text-white">Password</label>
-                    <input [(ngModel)]="password" name="password" type="password" placeholder="Enter Password" class="p-2 bg-transparent text-white border border-blue-2 outline-none rounded-md" required>
-                </div>
-                <div>
-                    <button type="submit" class="bg-yellow-1 px-6 py-2 mt-4 rounded-lg font-semibold text-base">
-                        Submit →
-                    </button>
-                </div>
-            </div>
-        </form>
+<div class="bg-blue-1 px-4 py-8 sm:px-6 sm:py-12 md:px-8 md:py-16 lg:px-10 lg:py-20">
+    <div class="max-w-md mx-auto">
+      <h2 class="text-white text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Create Your Account</h2>
+      <form (ngSubmit)="onSubmit()" class="space-y-4 sm:space-y-6">
+        <div class="flex flex-col">
+          <label for="username" class="text-white text-sm sm:text-base font-medium mb-1 sm:mb-2">Name</label>
+          <input 
+            [(ngModel)]="username" 
+            name="username" 
+            type="text" 
+            id="username"
+            placeholder="Enter your full name" 
+            class="p-2 sm:p-3 bg-transparent border border-blue-2 focus:border-white focus:ring-2 focus:ring-white outline-none rounded-md text-white placeholder-blue-200 transition duration-300"
+            required
+          >
+        </div>
+        <div class="flex flex-col">
+          <label for="email" class="text-white text-sm sm:text-base font-medium mb-1 sm:mb-2">Email</label>
+          <input 
+            [(ngModel)]="email" 
+            name="email" 
+            type="email" 
+            id="email"
+            placeholder="you@example.com" 
+            class="p-2 sm:p-3 bg-transparent border border-blue-2 focus:border-white focus:ring-2 focus:ring-white outline-none rounded-md text-white placeholder-blue-200 transition duration-300"
+            required
+          >
+        </div>
+        <div class="flex flex-col">
+          <label for="password" class="text-white text-sm sm:text-base font-medium mb-1 sm:mb-2">Password</label>
+          <input 
+            [(ngModel)]="password" 
+            name="password" 
+            type="password" 
+            id="password"
+            placeholder="Enter a strong password" 
+            class="p-2 sm:p-3 bg-transparent border border-blue-2 focus:border-white focus:ring-2 focus:ring-white outline-none rounded-md text-white placeholder-blue-200 transition duration-300"
+            required
+          >
+        </div>
+        <div>
+          <button 
+            type="submit" 
+            class="w-full bg-yellow-1 px-4 py-2 sm:px-6 sm:py-3 mt-2 sm:mt-4 rounded-lg font-bold text-sm sm:text-base text-blue-1 hover:bg-yellow-2 focus:outline-none focus:ring-2 focus:ring-yellow-2 focus:ring-offset-2 focus:ring-offset-blue-1 transition duration-300 ease-in-out"
+          >
+            Create Account 
+            <span aria-hidden="true" class="ml-2">→</span>
+          </button>
+        </div>
+      </form>
     </div>
-</div>
+  </div>

@@ -238,34 +238,67 @@
     </div>
   </div>
   <!--contact us-->
-  <div class="h-auto py-20 px-10 bg-blue-1">
-    <h2 class="text-white">Contact Us</h2>
-    <h3 class="text-white text-4xl py-2">Invoice create that’s <br />Accurate & Always on Time</h3>
-    <form action="" class="flex flex-col gap-4">
-      <div class="flex gap-8">
+  <div class="bg-blue-1 py-8 px-4 sm:py-12 sm:px-6 md:py-16 md:px-8 lg:py-20 lg:px-10">
+    <h2 class="text-white text-2xl sm:text-3xl">Contact Us</h2>
+    <h3 class="text-white text-3xl sm:text-4xl md:text-5xl py-2 sm:py-4">
+      Invoice create that's<br class="hidden sm:inline" /> Accurate & Always on Time
+    </h3>
+    <form action="" class="flex flex-col gap-4 sm:gap-6">
+      <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
         <div class="flex flex-col w-full">
-          <label for="" class="text-white">First Name</label>
-          <input type="text" placeholder="First Name" class="bg-transparent p-2 border border-white rounded-md">
+          <label for="firstname" class="text-white mb-2">First Name</label>
+          <input 
+            type="text" 
+            id="firstname"
+            placeholder="First Name" 
+            class="bg-transparent p-2 sm:p-3 border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-white"
+          >
         </div>
         <div class="flex flex-col w-full">
-          <label for="" class="text-white">Last Name</label>
-          <input type="text" placeholder="Last Name" class="bg-transparent p-2 border border-white rounded-md">
+          <label for="lastname" class="text-white mb-2">Last Name</label>
+          <input 
+            type="text" 
+            id="lastname"
+            placeholder="Last Name" 
+            class="bg-transparent p-2 sm:p-3 border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-white"
+          >
         </div>
       </div>
-      <div class="flex gap-8">
+      <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
         <div class="flex flex-col w-full">
-          <label for="" class="text-white">Email</label>
-          <input type="email" placeholder="example@email.com" class="bg-transparent p-2 border border-white rounded-md">
+          <label for="email" class="text-white mb-2">Email</label>
+          <input 
+            type="email" 
+            id="email"
+            placeholder="example@email.com" 
+            class="bg-transparent p-2 sm:p-3 border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-white"
+          >
         </div>
         <div class="flex flex-col w-full">
-          <label for="" class="text-white">Phone</label>
-          <input type="tel" placeholder="1234567890" class="bg-transparent p-2 border border-white rounded-md">
+          <label for="phone" class="text-white mb-2">Phone</label>
+          <input 
+            type="tel" 
+            id="phone"
+            placeholder="1234567890" 
+            class="bg-transparent p-2 sm:p-3 border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-white"
+          >
         </div>
       </div>
       <div class="flex flex-col w-full">
-        <label for="" class="text-white" >Message</label>
-        <textarea name="" id="" placeholder="Enter Message" class="p-2 bg-transparent text-white border border-white rounded-md"></textarea>
+        <label for="message" class="text-white mb-2">Message</label>
+        <textarea 
+          id="message" 
+          placeholder="Enter Message" 
+          rows="4"
+          class="p-2 sm:p-3 bg-transparent text-white border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-white"
+        ></textarea>
       </div>
+      <button 
+        type="submit" 
+        class="bg-yellow-1 w-48 text-blue-1 font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-md mt-2 sm:mt-4"
+      >
+        Send Message
+      </button>
     </form>
   </div>
 </div>
