@@ -2,3 +2,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Webkit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1A1A2E; /* color of the track */
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #FFF500; /* color of the scroll thumb */
+    border-radius: 10px; /* optional, if you want rounded corners */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FFF500; /* color of the scroll thumb when hovered */
+  }
+  
